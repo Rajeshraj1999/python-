@@ -1,0 +1,9 @@
+word=input()
+vowels=['a','e','i','o','u']
+consonants=['r','t','y','w','q']
+if(word in vowels):
+	print("vowels")
+elif(word in consonants):
+	print("consonants")
+else:
+	print("invalid")
